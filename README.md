@@ -11,7 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-## Installation
+## 安装
 
 GifLoadingView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -20,9 +20,14 @@ it, simply add the following line to your Podfile:
 pod 'GifLoadingView'
 ```
 
-## Author
+## 使用
+```ruby
+[MNGifLoadingView startLoadingWithGifImageName:@"loading"];
+```
+```ruby
+[MNGifLoadingView endLoading];
+```
 
-wxf, 630850673@qq.com
 
 ## License
 
