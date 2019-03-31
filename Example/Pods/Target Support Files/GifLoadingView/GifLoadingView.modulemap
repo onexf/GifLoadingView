@@ -1,0 +1,6 @@
+framework module GifLoadingView {
+  umbrella header "GifLoadingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027C871C2250C1F600CCB300 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 027C871A2250C1F600CCB300 /* loading.gif */; };
+		027C871D2250C1F600CCB300 /* upload.gif in Resources */ = {isa = PBXBuildFile; fileRef = 027C871B2250C1F600CCB300 /* upload.gif */; };
 		3A9C77ACDAF60BF834F23878 /* Pods_GifLoadingView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2A0AA5CAD805DCA39CBA2 /* Pods_GifLoadingView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,8 +40,10 @@
 
 /* Begin PBXFileReference section */
 		008C441167913F3412A93546 /* Pods-GifLoadingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifLoadingView_Example.release.xcconfig"; path = "Target Support Files/Pods-GifLoadingView_Example/Pods-GifLoadingView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		027C871A2250C1F600CCB300 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		027C871B2250C1F600CCB300 /* upload.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = upload.gif; sourceTree = "<group>"; };
 		0B45D1B2461A43A825EBF4CB /* Pods_GifLoadingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifLoadingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A18002665533C750DEE1A9 /* GifLoadingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GifLoadingView.podspec; path = ../GifLoadingView.podspec; sourceTree = "<group>"; };
+		18A18002665533C750DEE1A9 /* GifLoadingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GifLoadingView.podspec; path = ../GifLoadingView.podspec; sourceTree = "<group>"; };
 		28D2A0AA5CAD805DCA39CBA2 /* Pods_GifLoadingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifLoadingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAF0D347C387F646C60B266 /* Pods-GifLoadingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifLoadingView_Example.debug.xcconfig"; path = "Target Support Files/Pods-GifLoadingView_Example/Pods-GifLoadingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GifLoadingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifLoadingView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +68,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90C404C8D6D31AFD3BE5273D /* Pods-GifLoadingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifLoadingView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GifLoadingView_Tests/Pods-GifLoadingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		99474D337E9BFCF773B49408 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CA6D9F30CDE1AFD5779F7A03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		99474D337E9BFCF773B49408 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CA6D9F30CDE1AFD5779F7A03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E5B85E04C7B9F3D3FBF7FF5B /* Pods-GifLoadingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifLoadingView_Tests.release.xcconfig"; path = "Target Support Files/Pods-GifLoadingView_Tests/Pods-GifLoadingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +107,6 @@
 				90C404C8D6D31AFD3BE5273D /* Pods-GifLoadingView_Tests.debug.xcconfig */,
 				E5B85E04C7B9F3D3FBF7FF5B /* Pods-GifLoadingView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +147,8 @@
 		6003F593195388D20070C39A /* Example for GifLoadingView */ = {
 			isa = PBXGroup;
 			children = (
+				027C871A2250C1F600CCB300 /* loading.gif */,
+				027C871B2250C1F600CCB300 /* upload.gif */,
 				6003F59C195388D20070C39A /* MNAppDelegate.h */,
 				6003F59D195388D20070C39A /* MNAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -248,6 +253,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wxf;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = P5VAF9T67V;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +266,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -279,8 +288,10 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				027C871C2250C1F600CCB300 /* loading.gif in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				027C871D2250C1F600CCB300 /* upload.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,12 +338,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GifLoadingView_Example/Pods-GifLoadingView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GifLoadingView/GifLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GifLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -498,6 +513,7 @@
 			baseConfigurationReference = 3AAF0D347C387F646C60B266 /* Pods-GifLoadingView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5VAF9T67V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GifLoadingView/GifLoadingView-Prefix.pch";
 				INFOPLIST_FILE = "GifLoadingView/GifLoadingView-Info.plist";
@@ -513,6 +529,7 @@
 			baseConfigurationReference = 008C441167913F3412A93546 /* Pods-GifLoadingView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5VAF9T67V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GifLoadingView/GifLoadingView-Prefix.pch";
 				INFOPLIST_FILE = "GifLoadingView/GifLoadingView-Info.plist";

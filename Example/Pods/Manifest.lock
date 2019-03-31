@@ -1,0 +1,29 @@
+PODS:
+  - GifLoadingView (0.1.0):
+    - SDWebImage
+    - SVProgressHUD
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - GifLoadingView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  GifLoadingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GifLoadingView: caec622236b9c46c048ec9ca289e5bb408fc89a7
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 40e5b4f0979bb13192ec7ab3ee81471405ff6eaa
+
+COCOAPODS: 1.6.1

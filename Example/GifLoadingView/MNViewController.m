@@ -7,6 +7,7 @@
 //
 
 #import "MNViewController.h"
+#import "MNGifLoadingView.h"
 
 @interface MNViewController ()
 
@@ -20,10 +21,22 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)gifLoading:(UIButton *)sender {
+    [MNGifLoadingView startLoadingWithGifImageName:@"loading"];
+}
+
+- (IBAction)gitUpload:(UIButton *)sender {
+    [MNGifLoadingView startLoadingWithGifImageName:@"upload"];
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [MNGifLoadingView endLoading];
+}
 @end

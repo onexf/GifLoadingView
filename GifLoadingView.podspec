@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GifLoadingView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GifLoadingView.'
+  s.summary          = '直接加载Gif图片的LodingView'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '基于SDWebImage和SVProgressHUD实现的加载Gif图片的HUD'
 
-  s.homepage         = 'https://github.com/wxf/GifLoadingView'
+  s.homepage         = 'https://github.com/onexf/GifLoadingView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wxf' => '630850673@qq.com' }
-  s.source           = { :git => 'https://github.com/wxf/GifLoadingView.git', :tag => s.version.to_s }
+  s.author           = { 'onexf' => '630850673@qq.com' }
+  s.source           = { :git => 'https://github.com/onexf/GifLoadingView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +36,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SDWebImage'
+  s.dependency 'SVProgressHUD'
+
 end
