@@ -22,11 +22,11 @@
 }
 
 - (IBAction)gifLoading:(UIButton *)sender {
-    [MNGifLoadingView startLoadingWithGifImageName:@"loading"];
+    [MNGifLoadingView startLoadingWithGifImageName:@"loading"];// andType:SVProgressHUDMaskTypeBlack];
 }
 
 - (IBAction)gitUpload:(UIButton *)sender {
-    [MNGifLoadingView startLoadingWithGifImageName:@"upload"];
+    [MNGifLoadingView startLoadingWithGifImageName:@"upload" andType:SVProgressHUDMaskTypeGradient];
 }
 
 

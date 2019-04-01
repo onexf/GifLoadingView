@@ -36,16 +36,9 @@
 
 
 + (void)startLoadingWithGifImageName:(NSString *)imageName {
-    
     [self startLoadingWithGifImageName:imageName andType:SVProgressHUDMaskTypeClear];
 }
 
-/**
- 开始加载
- 
- @param imageName 图片名称
- @param type 背景模式
- */
 + (void)startLoadingWithGifImageName:(NSString *)imageName andType:(SVProgressHUDMaskType)type {
     
     NSString *imagePath = [[NSBundle mainBundle] pathForResource:imageName ofType:@"gif"];
@@ -62,7 +55,9 @@
             shared.images[imageName] = image;
         }
         UIImage *gifImage = shared.images[imageName];
-        //    [SVProgressHUD setDefaultMaskType:type];
+        if (type) {
+            [SVProgressHUD setDefaultMaskType:type];
+        }
         [SVProgressHUD setMinimumDismissTimeInterval:10];
         [SVProgressHUD setBackgroundColor:[UIColor clearColor]];
         [SVProgressHUD setImageViewSize:CGSizeMake(44, 44)];

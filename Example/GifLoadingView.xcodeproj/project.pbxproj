@@ -43,7 +43,7 @@
 		027C871A2250C1F600CCB300 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		027C871B2250C1F600CCB300 /* upload.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = upload.gif; sourceTree = "<group>"; };
 		0B45D1B2461A43A825EBF4CB /* Pods_GifLoadingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifLoadingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A18002665533C750DEE1A9 /* GifLoadingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GifLoadingView.podspec; path = ../GifLoadingView.podspec; sourceTree = "<group>"; };
+		18A18002665533C750DEE1A9 /* GifLoadingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GifLoadingView.podspec; path = ../GifLoadingView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		28D2A0AA5CAD805DCA39CBA2 /* Pods_GifLoadingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GifLoadingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAF0D347C387F646C60B266 /* Pods-GifLoadingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifLoadingView_Example.debug.xcconfig"; path = "Target Support Files/Pods-GifLoadingView_Example/Pods-GifLoadingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GifLoadingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifLoadingView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,7 +254,7 @@
 				ORGANIZATIONNAME = wxf;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = P5VAF9T67V;
+						DevelopmentTeam = U5Q8765H8F;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -513,7 +513,7 @@
 			baseConfigurationReference = 3AAF0D347C387F646C60B266 /* Pods-GifLoadingView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P5VAF9T67V;
+				DEVELOPMENT_TEAM = U5Q8765H8F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GifLoadingView/GifLoadingView-Prefix.pch";
 				INFOPLIST_FILE = "GifLoadingView/GifLoadingView-Info.plist";
@@ -529,7 +529,7 @@
 			baseConfigurationReference = 008C441167913F3412A93546 /* Pods-GifLoadingView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P5VAF9T67V;
+				DEVELOPMENT_TEAM = U5Q8765H8F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GifLoadingView/GifLoadingView-Prefix.pch";
 				INFOPLIST_FILE = "GifLoadingView/GifLoadingView-Info.plist";
